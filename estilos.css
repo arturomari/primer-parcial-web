@@ -1,0 +1,28 @@
+.hero-section {
+  min-height: 80vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://pro.alfaforni.com/wp-content/uploads/2022/10/20220928_142615-scaled.jpg")
+      no-repeat center center;
+  background-size: cover;
+}
+
+.hero-box {
+}
+
+.pizza-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+section {
+  scroll-margin-top: 80px;
+}
